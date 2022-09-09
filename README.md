@@ -1,10 +1,28 @@
-# image-compare
+# Image Compare
 
-This template should help get you started developing with Vue 3 in Vite.
+A project for [imagecompare.co.uk](imagecompare.co.uk)
+
+---
+
+### To-do...
+
+The project is currently just a rough front-end implementation. (not yet clean!)
+
+The following features are planned for this side-project.
+
+* Backend, To be written in PHP with Symfony
+  * Authentication
+    * Register an account with Google, GitHub and Email
+    * Login
+    * Logout
+    * Password Reset
+  * Create "Folder-level" image comparisons
+  * Image uploading
+  * Link sharing, share your image comparisons
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
 
 ## Customize configuration
 
@@ -13,23 +31,18 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+yarn install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+yarn build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```

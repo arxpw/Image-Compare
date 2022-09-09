@@ -3,6 +3,7 @@
     <nav class="text-white flex space-x-2">
       <RouterLink class="nav-item" to="/">Compare 2 Images</RouterLink>
       <RouterLink class="nav-item" to="/about">About</RouterLink>
+      <RouterLink class="nav-item" to="/todo">To-Do</RouterLink>
     </nav>
   </div>
 </template>
