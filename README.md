@@ -1,6 +1,6 @@
 # Image Compare
 
-A project for [imagecompare.co.uk](imagecompare.co.uk)
+A project for [imagecompare.co.uk](https://imagecompare.co.uk)
 
 ---
 
